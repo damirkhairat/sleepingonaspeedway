@@ -14,7 +14,7 @@ function importAll(r) {
 }
 
 const images = importAll(require.context('./assets/split_frames', false, /\.jpg/));
-const artistBioText = <div><div>Damir Khairat is a web crawler––ingesting and interpreting the mass of online data produced as byproducts of ideological and geopolitical violence. In turn, he uses this data to produce investigations on behalf of those affected by such violence. Currently a Research Technologist with the Digital Investigations Lab at Human Rights Watch, Khairat holds a BS in Computer Science from the University of Washington and an MA in Design from the Design Academy Eindhoven. Originally from Kazakhstan and the United States, he currently resides in London.</div></div>;
+const artistBioText = <div>Damir Khairat is a web crawler––ingesting and interpreting the mass of online data produced as byproducts of ideological and geopolitical violence. In turn, he uses this data to produce investigations on behalf of those affected by such violence. Khairat is currently a Research Technologist with the Digital Investigations Lab at Human Rights Watch. Prior to this, he earned a BS in Computer Science from the University of Washington and more recently, an MA in Design from the Design Academy Eindhoven. He currently resides in London.</div>;
 
 export default function AboutPage() {
     const [hoverIndex, setHoverIndex] = useState(93);
