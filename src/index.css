@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  line-height: 14px;
+  font-size: 11.8px;
+  font-family: 'Arial';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  height: 0px;
+}

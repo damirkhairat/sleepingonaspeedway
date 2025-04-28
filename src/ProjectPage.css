@@ -1,0 +1,208 @@
+/* Mobile ProjectPage style */
+@media only screen and (max-width: 768px) {
+    #project-page-row1 {
+        width: 100vw;
+    }
+
+    .project-content-item {
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+
+    .project-content-description {
+        width: 95vw;
+        margin: 0 auto 3vh auto;
+    }
+
+    #project-description-toggle {
+        margin-left: 2.5vw;
+    }
+
+    #project-page-name {
+        margin: 15vh 0vh 15vh 0vh;
+    }
+
+    #project-page-ongoing {
+        width: 32.5%;
+    }
+
+    .project-page-metadata-title {
+        width: 27.5%;
+        margin-left: 2.5vw;
+    }
+
+    .project-page-metadata-value {
+        width: 67.5%;
+        margin-right: 2.5vw;
+        text-align: right;
+    }
+
+    .project-page-metadata {
+        margin-bottom: 5vh;
+    }
+
+    #project-page-description {
+        margin: 0 auto 5vh auto;
+        width: 95vw;
+    }
+
+    .trailing-project-page-content {
+        padding-bottom: 1.5vh;
+    }
+
+    #project-description-toggle {
+        background-color: white;
+        border: none;
+        padding: 0;
+        color: blue;
+        text-decoration: underline;
+        font-size: 14px;
+        margin-bottom: 5vh;
+    }
+}
+
+/* Desktop ProjectPage style */
+@media only screen and (min-width: 769px) {
+    #project-page-row1 {
+        top: -6.1vh;
+        width: 55vw;
+        position: absolute;
+        margin-right: 1.5vw;
+        float: left;
+        overflow-y: scroll;
+    }
+
+    #project-page {
+        position: relative;
+    }
+
+    .project-content-description {
+        margin-left: 1.5vw;
+        width: 100% - 1.5vw;
+        margin-bottom: 3vh;
+    }
+
+    #project-page-row2 {
+        width: 42vw;
+        float: right;
+        margin-right: 1.5vw;
+        overflow-y: scroll;
+        box-sizing: content-box;
+        height: 92vh;
+    }
+
+    #project-page-name {
+        margin: 20vh 0vh 20vh 0vh;
+    }
+
+    #project-page-ongoing {
+        width: 20%;
+    }
+
+    .project-page-metadata-title {
+        width: 30%;
+    }
+
+    .project-page-metadata-value {
+        width: 70%;
+    }
+
+    #project-page-description {
+        padding-left: 7vw;
+        margin-top: 7.5vh;
+    }
+}
+
+#project-page-row1 {
+    box-sizing: content-box;
+    height: 100vh;
+    z-index: 100;
+}
+
+.project-content-item {
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+#project-page-name {
+    font-size: 16px;
+    -webkit-transform: scale(1, 1.15);
+    -moz-transform: scale(1, 1.15);
+    -ms-transform: scale(1, 1.15);
+    -o-transform: scale(1, 1.15);
+    transform: scale(1, 1.15);
+    letter-spacing: -0.5px;
+    width: 100%;
+    text-align: center;
+}
+
+#project-page-ongoing {
+    opacity: 85%;
+    margin: 2vh auto 0 auto;
+    font-size: 10px !important;
+    letter-spacing: -.05px;
+    color: black;
+
+    padding-top: 3px;
+    padding-bottom: 5px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-radius: 50%;
+
+    -webkit-transform: scale(1, 1.15);
+    -moz-transform: scale(1, 1.15);
+    -ms-transform: scale(1, 1.15);
+    -o-transform: scale(1, 1.15);
+    transform: scale(1, 1.15);
+}
+
+.project-metadata-entry {
+    display: flex;
+    font-size: 10.5px;
+    line-height: 12.5px;
+}
+
+.project-page-metadata-value {
+    text-align: right;
+}
+
+.embed-responsive-parent {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2vh;
+}
+
+#father-stephen-video1-parent {
+    padding-bottom: 66%;
+}
+
+#gulf-war-illness-video1-parent {
+    padding-bottom: 56.25%;
+}
+
+#gulf-war-illness-video2-parent {
+    padding-bottom: 56.25%;
+}
+
+#mother-video1-parent {
+    padding-bottom: 55.5%;
+}
+
+#mother-video2-parent {
+    padding-bottom: 55.5%;
+}
+
+#wdiatt-video1-parent {
+    padding-bottom: 66%;
+}
+
+.embed-responsive-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

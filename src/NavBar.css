@@ -1,0 +1,41 @@
+/* Mobile NavBar style */
+@media only screen and (max-width: 768px) {
+  .navigation-link {
+    margin: 3vh 2.5vw 3vh 0;
+    font-size: 14px;
+  }
+}
+
+/* Desktop NavBar style */
+@media only screen and (min-width: 769px) {
+  .navigation-link {
+    margin: 2vh 1.5vw 2vh 0;
+  }
+}
+
+#navigation-bar {
+  top: 0;
+  position: sticky;
+  display: flow-root;
+  z-index: 99;
+  
+  background-color: white;
+}
+
+.navigation-link {
+  padding: 1px 3px 1px 3px;
+  float: right;
+  
+  transition: all .2s ease-in;
+  
+  letter-spacing: -0.5px;
+  -webkit-transform: scale(1, 1.1);
+  -moz-transform: scale(1, 1.1);
+  -ms-transform: scale(1, 1.1);
+  -o-transform: scale(1, 1.1);
+  transform: scale(1, 1.1);
+}
+
+.navigation-link:hover {
+  background-color: black;
+}

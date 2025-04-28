@@ -1,0 +1,102 @@
+/* Mobile style for AboutPage */
+@media only screen and (max-width: 768px) {
+    #cover-images-video {
+        width: 100vw;
+        height: calc(100vw * 352 / 624)
+    }
+
+    #cover-images {
+        width: 100vw;
+        height: calc(100vw * 352 / 624);
+    }
+
+    .cover-image {
+        width: 100vw;
+        height: calc(100vw * 352 / 624);
+        position: absolute;
+    }
+
+    #artist-bio-text {
+        width: 95vw;
+        margin: 2vh 2.5vw 0 2.5vw;
+    }
+
+    #cover-image-caption {
+        margin-left: 2.5vw;
+    }
+
+    #contact-links {
+        margin-left: 2.5vw;
+    }
+}
+
+/* Desktop style for AboutPage */
+@media only screen and (min-width: 768px) {
+    #cover-images {
+        height: 55vh;
+        margin-top: 1.5vh;
+    }
+
+    .cover-image {
+        height: 55vh;
+        position: absolute;
+    }
+
+    #about-page-content {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-left: 1.5vw;
+    }
+
+    #artist-bio-text {
+        width: 55vw;
+        margin-top: 2vh;
+    }
+
+    #contact-links {
+        z-index: 10000;
+        position: absolute;
+    }
+}
+
+#scroll-markers-container {
+    position: relative;
+    display: flex;
+    height: 94vh;
+    width: 100vw;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.scroll-marker {
+    width: 1.06382979vw;
+    height: 94vh;
+    z-index: 1000;
+}
+
+.hidden-cover-image {
+    visibility: hidden;
+}
+
+#about-page-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#about-page {
+    position: relative;
+}
+
+#cover-image-caption {
+    margin-top: 2.75vh;
+}
+
+#bio-main-text {
+    margin-top: 1vh;
+}
+
+#contact-links {
+    padding-bottom: 2.5vh;
+}

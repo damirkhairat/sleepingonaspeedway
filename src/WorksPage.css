@@ -1,0 +1,12 @@
+/* Desktop style for WorksPage */
+@media only screen and (min-width: 769px) {
+    #projects-previews-collection {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+}
+
+#projects-previews-collection {
+    width: 100vw;
+}
