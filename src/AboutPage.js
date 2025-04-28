@@ -1,9 +1,8 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import './AboutPage.css';
 import { Link } from 'react-router-dom';
 import FacesVideo from '../src/assets/split_frames/icouldnthelpbutlook2.mp4'
-import { WindowContext } from './App';
-
+import {isMobile} from 'react-device-detect';
 
 function importAll(r) {
     let sortedKeys = r.keys().sort()
@@ -19,10 +18,9 @@ const artistBioText = <div><div>Damir Khairat is a <i>web crawler</i>––inges
 
 export default function AboutPage() {
     const [hoverIndex, setHoverIndex] = useState(93);
-    const browserWindow = useContext(WindowContext).browserWindow;
 
     return (<div id="about-page">
-        {!browserWindow.isMobileDetected && <div id='scroll-markers-container'>
+        {!isMobile && <div id='scroll-markers-container'>
             {
                 Object.keys(images).map((key, i) => {
                     return <div key={key} id={key} className='scroll-marker' onMouseEnter={() => { setHoverIndex(i) }} />
@@ -30,7 +28,7 @@ export default function AboutPage() {
             }
         </div>}
         <div id="about-page-content">
-            {!browserWindow.isMobileDetected && <div id="cover-images">
+            {!isMobile && <div id="cover-images">
                 {
                     Object.keys(images).map((key, i) => {
                         return <img src={images[i]} key={i} className={hoverIndex === i ? 'cover-image' : 'cover-image hidden-cover-image'} alt="I cant close my eyes" />
@@ -38,7 +36,7 @@ export default function AboutPage() {
                 }
             </div>}
 
-            {browserWindow.isMobileDetected && <video playsInline id='cover-images-video' muted="true" autoPlay loop>
+            {isMobile && <video playsInline id='cover-images-video' muted="true" autoPlay loop>
                 <source src={FacesVideo} type="video/mp4" />
             </video>
             }

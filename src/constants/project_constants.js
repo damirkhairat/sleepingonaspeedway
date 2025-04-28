@@ -28,19 +28,6 @@ import WeDoItAllTheTimeImage9 from '../assets/We do it all the time/web collecti
 
 import SingAboutMeImDyingOfThirst_pdf from '../assets/We do it all the time/web collection/sing-about-me_im-dying-of-thirst.pdf';
 
-import DollHouseCoverPhoto from '../assets/doll house/dollhouse_cover.png'
-import DollHouseCoverVideo from '../assets/doll house/dollhouse_cover.mp4'
-import DollHouseImage1 from '../assets/doll house/web collection/dollhouse_image1.jpg';
-import DollHouseImage2 from '../assets/doll house/web collection/dollhouse_image2.jpg';
-import DollHouseImage3 from '../assets/doll house/web collection/dollhouse_image3.jpg';
-import DollHouseImage4 from '../assets/doll house/web collection/dollhouse_image4.jpg';
-import DollHouseImage5 from '../assets/doll house/web collection/dollhouse_image5.jpg';
-import DollHouseImage6 from '../assets/doll house/web collection/dollhouse_image6.jpg';
-import DollHouseImage7 from '../assets/doll house/web collection/dollhouse_image7.jpg';
-import DollHouseImage8 from '../assets/doll house/web collection/dollhouse_image8.jpg';
-import DollHouseImage9 from '../assets/doll house/web collection/dollhouse_image9.jpg';
-import DollHouseImage10 from '../assets/doll house/web collection/dollhouse_image10.jpg';
-
 const GulfWarIllnessVideo3 = (<div className='embed-responsive-parent' id='gulf-war-illness-video1-parent'><iframe className="embed-responsive-item" src="https://www.youtube.com/embed/wk1H-OuTvos?si=7R3vXifQ32rLgOVw" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="fatherstephen_video1"></iframe></div>);
 const GulfWarIllnessVideo4 = (<div className='embed-responsive-parent' id='gulf-war-illness-video2-parent'><iframe className="embed-responsive-item" src="https://www.youtube.com/embed/pxmj0zpSDIs?si=NhTV7p8e7xi8PPza" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="fatherstephen_video1"></iframe></div>);
 const FatherStephenVideo1 = (<div className='embed-responsive-parent' id='father-stephen-video1-parent'><iframe className="embed-responsive-item" src="https://player.vimeo.com/video/859296717?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="fatherstephen_video1"></iframe></div>);
@@ -201,66 +188,6 @@ export const projects = [
                 description: "Reference image: Félix González-Torres, Untitled (A Portrait), 1991",
                 type: "image",
             }
-        ]
-    },
-    {
-        id: "doll-house",
-        image_src: DollHouseCoverPhoto,
-        video_src: DollHouseCoverVideo,
-        name: "Doll House",
-        isOnGoing: false,
-        year: 2020,
-        data_origin: ["Non-specific"],
-        forums: ["Web platform"],
-        description: "During the pandemic lockdowns, <i>inviting someone in</i> often only extended so far as digital interaction. Doll House, then, was an explicit extension of my home onto the web––a space for experiments in virtual intimacy towards visitors who, largely, came from my immediate community.",
-        long_description: "<p>Now defunct, <i>Doll House</i> was a digital environment which operated as an extension of my physical home onto cyberspace––acting as a substitute for experience that had been restricted by the pandemic lockdowns. In practice, it was composed of a series of rooms which attempted to digitally reproduce interactions which happen within the home.  Each room focused on a specific domestic experience––craft, intimate communication, community and so forth. Interactive objects populated these rooms, each either containing private ephemera––personal essays, photos, notes, etc.––or provided a means of digital interaction––a web radio where friends played playlists, a portal where my loved ones could share things they made in lockdown.</p><p>At their core, each component of <i>Doll House</i> intended to define and reflect the specificity of what the home <i>felt like</i> and moreover what had been carved out in light of our siloed experiences within them.</p>",
-        visual_content: [
-            {
-                src: DollHouseImage1,
-                description: "<i>Doll House</i> UI for the 'entry room.' Users could interact with the space by clicking objects, elements of the room or the buttons below.",
-                type: "image"
-            },
-            {
-                src: DollHouseImage2,
-                description: "Illustration for the 'rec room,' which operated as a space for friends to share various media, including their mixes via a live-stream radio.",
-                type: "image"
-            },
-            {
-                src: DollHouseImage3,
-                description: "A collection of writings, both private and public.",
-                type: "image"
-            },
-            {
-                src: DollHouseImage4,
-                description: "Illustration for a room which exhibited works created during the pandemic by friends and I.",
-                type: "image"
-            },
-            {
-                src: DollHouseImage5,
-                type: "image"
-            },
-            {
-                src: DollHouseImage6,
-                description: "Website README. Displayed in the entry room to provide  context for visitors.",
-                type: "image"
-            },
-            {
-                src: DollHouseImage7,
-                type: "image"
-            },
-            {
-                src: DollHouseImage8,
-                description: "Identity for Dog Year––a web-radio that <i>Doll House</i> hosted, created by Nikko Gary.",
-                type: "image"
-            },
-            {
-                src: DollHouseImage9,
-                type: "image"
-            },
-            {
-                src: DollHouseImage10,
-                type: "image"
-            },
         ]
     }
 ]
