@@ -14,7 +14,7 @@ function importAll(r) {
 }
 
 const images = importAll(require.context('./assets/split_frames', false, /\.jpg/));
-const artistBioText = <div>Damir Khairat is a web crawler––ingesting and interpreting the mass of online data produced as byproducts of ideological and geopolitical violence. In turn, he uses this data to produce investigations on behalf of those affected by such violence. Khairat is currently a Research Technologist with the Digital Investigations Lab at Human Rights Watch. Prior to this, he earned a BS in Computer Science from the University of Washington and more recently, an MA in Design from the Design Academy Eindhoven. He currently resides in London.</div>;
+const artistBioText = <div>Damir Khairat is researcher who specialises in ingesting and interpreting masses of online data produced as byproducts of ideological and geopolitical conflict. In turn, he uses this data to investigate on behalf of those affected by such violence. Khairat is currently a Research Technologist with the Digital Investigations Lab at Human Rights Watch. Prior to this, he earned a BS in Computer Science from the University of Washington and more recently, an MA in Design from the Design Academy Eindhoven. He resides in London, the United Kingdom.</div>;
 
 export default function AboutPage() {
     const [hoverIndex, setHoverIndex] = useState(93);
@@ -52,7 +52,6 @@ export default function AboutPage() {
             </div>
             <div id="contact-links">
                 <Link className='contact-link' to='mailto:damirkhairat@gmail.com' target='_blank'>damirkhairat@gmail.com</Link><br />
-                <a href="https://docs.google.com/document/d/1Aoa3TtB7JHwlq6VbFykcicWjtx_quW1CGmkTIk5G7mA/edit?usp=sharing" target="_blank">CV</a><br />
             </div>
         </div>
     </div>)

@@ -34,8 +34,7 @@ export default function App() {
   }, []);
 
   return (
-    <div>
-      <meta name="description" content="web crawler" />
+    <div> 
       <WindowContext.Provider value={{ browserWindow: browserWindow }}>
         <NavBar />
         <Routes>
