@@ -35,13 +35,13 @@ export default function App() {
 
   return (
     <div>
-      <meta name="description" content="web crawler | researcher" />
+      <meta name="description" content="web crawler" />
       <WindowContext.Provider value={{ browserWindow: browserWindow }}>
         <NavBar />
         <Routes>
-          <Route exact path="/" Component={WorksPage} />
-          <Route exact path="/works" Component={WorksPage} />
+          <Route exact path="/" Component={AboutPage} />
           <Route exact path="/about" Component={AboutPage} />
+          <Route exact path="/works" Component={WorksPage} />
           <Route path='/projects/*' Component={ProjectPage} />
           <Route path="*" element={<Navigate to="/" replace={true} />} />
         </Routes>
