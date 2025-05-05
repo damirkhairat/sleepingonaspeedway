@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.0d4c0e54.chunk.css",
-    "main.js": "/static/js/main.f528bb84.chunk.js",
-    "main.js.map": "/static/js/main.f528bb84.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6b1fe6f8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6b1fe6f8.js.map",
-    "static/js/2.44e0b75f.chunk.js": "/static/js/2.44e0b75f.chunk.js",
-    "static/js/2.44e0b75f.chunk.js.map": "/static/js/2.44e0b75f.chunk.js.map",
-    "static/js/3.5fd0330c.chunk.js": "/static/js/3.5fd0330c.chunk.js",
-    "static/js/3.5fd0330c.chunk.js.map": "/static/js/3.5fd0330c.chunk.js.map",
+    "main.js": "/static/js/main.20424748.chunk.js",
+    "main.js.map": "/static/js/main.20424748.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.96c7b327.js",
+    "runtime-main.js.map": "/static/js/runtime-main.96c7b327.js.map",
+    "static/js/2.5551f932.chunk.js": "/static/js/2.5551f932.chunk.js",
+    "static/js/2.5551f932.chunk.js.map": "/static/js/2.5551f932.chunk.js.map",
+    "static/js/3.d1e8f651.chunk.js": "/static/js/3.d1e8f651.chunk.js",
+    "static/js/3.d1e8f651.chunk.js.map": "/static/js/3.d1e8f651.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6e8514de839e6a80a97ce73e364541c9.js": "/precache-manifest.6e8514de839e6a80a97ce73e364541c9.js",
+    "precache-manifest.c9bee72a5c284a7b1993c37d1fd2cc3c.js": "/precache-manifest.c9bee72a5c284a7b1993c37d1fd2cc3c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.0d4c0e54.chunk.css.map": "/static/css/main.0d4c0e54.chunk.css.map",
-    "static/js/2.44e0b75f.chunk.js.LICENSE.txt": "/static/js/2.44e0b75f.chunk.js.LICENSE.txt",
+    "static/js/2.5551f932.chunk.js.LICENSE.txt": "/static/js/2.5551f932.chunk.js.LICENSE.txt",
     "static/media/fatherstephen_cover.png": "/static/media/fatherstephen_cover.407fa204.png",
     "static/media/fatherstephen_cover.mp4": "/static/media/fatherstephen_cover.4494ebac.mp4",
     "static/media/fatherstephen_image1.jpg": "/static/media/fatherstephen_image1.79333e52.jpg",
@@ -123,7 +123,6 @@
     "static/media/mother_cover.jpg": "/static/media/mother_cover.5a775ac3.jpg",
     "static/media/mother_cover.mp4": "/static/media/mother_cover.66393ccb.mp4",
     "static/media/mother_image1.jpg": "/static/media/mother_image1.5a775ac3.jpg",
-    "static/media/sing-about-me_im-dying-of-thirst.pdf": "/static/media/sing-about-me_im-dying-of-thirst.82a1cd9d.pdf",
     "static/media/wdiatt_image1.jpg": "/static/media/wdiatt_image1.1c03b1ed.jpg",
     "static/media/wdiatt_image2.jpg": "/static/media/wdiatt_image2.cfe7fb52.jpg",
     "static/media/wdiatt_image3.jpg": "/static/media/wdiatt_image3.36056fa3.jpg",
@@ -134,9 +133,9 @@
     "static/media/wedoitallthetime_cover.jpg": "/static/media/wedoitallthetime_cover.6600a0e5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b1fe6f8.js",
-    "static/js/2.44e0b75f.chunk.js",
+    "static/js/runtime-main.96c7b327.js",
+    "static/js/2.5551f932.chunk.js",
     "static/css/main.0d4c0e54.chunk.css",
-    "static/js/main.f528bb84.chunk.js"
+    "static/js/main.20424748.chunk.js"
   ]
 }
